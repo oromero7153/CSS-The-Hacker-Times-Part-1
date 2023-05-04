@@ -2,3 +2,13 @@
 body{
     background-color: #eee;
 }
+.newspaper-container{
+    background-color: white;
+    margin: 100px auto;
+    width: 75vw;
+    border-radius: 20px;
+    padding: 10px;
+}
+header{
+    text-align: center;
+}
