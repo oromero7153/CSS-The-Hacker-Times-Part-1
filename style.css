@@ -7,8 +7,22 @@ body{
     margin: 100px auto;
     width: 75vw;
     border-radius: 20px;
-    padding: 10px;
+    padding: 25px;
 }
 header{
     text-align: center;
+}
+img{
+    width: 100%;
+}
+section{
+    display: inline-block;
+    width: 40%;
+    margin-inline: 15px;
+    padding-right: 10px;
+}
+li{
+    display: inline;
+    margin-inline: 10px;
+    border-top: 1px solid black;
 }
