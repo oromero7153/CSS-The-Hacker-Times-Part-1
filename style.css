@@ -4,7 +4,7 @@ body{
 }
 .newspaper-container{
     background-color: white;
-    margin: 100px auto;
+    margin: 25px auto;
     width: 700px;
     border-radius: 20px;
     padding: 25px;
@@ -47,6 +47,9 @@ color: #777;
 text-decoration: none;
 font-size: 14px;
 }
+a:visited{
+    color: rgb(47, 47, 47);
+}
 a:hover{
     color: rgb(38, 71, 150);
 }
@@ -67,6 +70,7 @@ h5 {
  p {
     color: grey;
  }
- #{
+ footer{
     text-align: center;
+    
  }
