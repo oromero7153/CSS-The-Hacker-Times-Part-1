@@ -8,6 +8,7 @@ body{
     width: 700px;
     border-radius: 20px;
     padding: 25px;
+    box-shadow: 0 2px 3px #ddd;
 }
 header{
     text-align: center;
@@ -18,9 +19,9 @@ img{
 }
 section{
     display: inline-block;
-    width: 40%;
-    margin-inline: 15px;
-    padding-right: 10px;
+    width: 41%;
+    margin-inline: 30px;
+    /* padding-right: 10px; */
 }
 h1{
     font-size: 3em;
@@ -28,13 +29,13 @@ h1{
 ul{
     padding-top: 5px;
     padding-bottom: 5px;
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
+    border-top: .5px solid grey;
+    border-bottom: .5px solid grey;
 }
 li{
     display: inline;
     margin-inline: 8px;
-    font-family: Source Sans Pro;   
+    font-family: Source Sans Pro; 
 }
 .date{
     text-align: left;
@@ -42,24 +43,30 @@ li{
     color: grey;
 }
 a:link {
-color: grey;
+color: #777;
 text-decoration: none;
 font-size: 14px;
 }
-h2{
+a:hover{
+    color: rgb(38, 71, 150);
+}
+h2 {
     font-family: Roboto Slab;
     }
 .more-articles{
     /* padding-top: 1em; */
     border-top: 1px solid grey;
     }
-h4{
+h4 {
     font-family: Roboto Slab;
 }
-h5{
-    color: red;
+h5 {
+    color: #dd3232;
     font-family: Abril Fatface;
 }
- p{
+ p {
     color: grey;
+ }
+ #{
+    text-align: center;
  }
