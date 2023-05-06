@@ -69,6 +69,8 @@ h5 {
 }
  p {
     color: grey;
+    padding: 10px;
+    text-align: justify;
  }
  footer{
     text-align: center;
