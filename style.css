@@ -12,7 +12,7 @@ body{
 }
 header{
     text-align: center;
-    font-family: Abril Fatface;
+    font-family: 'Abril Fatface';
 }
 img{
     width: 100%;
@@ -26,21 +26,20 @@ section{
 h1{
     font-size: 3em;
 }
-ul{
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-top: .5px solid grey;
-    border-bottom: .5px solid grey;
+.date{
+    text-align: left;
+    font-family: Source Sans Pro;
+    color: #777;
+}
+nav{
+    text-align: Center;
+    border-top: .5px solid #777;
+    border-bottom: .5px solid #777;
 }
 li{
     display: inline;
     margin-inline: 8px;
     font-family: Source Sans Pro; 
-}
-.date{
-    text-align: left;
-    font-family: Source Sans Pro;
-    color: grey;
 }
 a:link {
 color: #777;
