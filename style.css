@@ -1,39 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
-body{
-    background-color: #eee;
+
+body {
+    background: #eee;
 }
-.newspaper-container{
-    background-color: white;
-    margin: 25px auto;
-    width: 700px;
+
+.newspaper-container {
+    background: white;
+    margin: 100px auto;
+    width: 900px;
     border-radius: 20px;
     padding: 25px;
     box-shadow: 0 2px 3px #ddd;
 }
-header{
+
+
+.date {
+    text-align: left;
+    font-family: 'Source Sans Pro';
+    color: #777;
+}
+
+h1 {
     text-align: center;
     font-family: 'Abril Fatface';
 }
-img{
+
+img {
     width: 100%;
 }
-h1{
-    font-size: 3em;
+
+nav {
+    text-align: center;
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
 }
-.date{
-    text-align: left;
-    font-family: Source Sans Pro;
+
+li {
+    display: inline-block;
+    margin-left: 10px;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
     color: #777;
+    font-family: 'Source Sans Pro';
 }
-nav{
-    text-align: Center;
-    border-top: .5px solid #777;
-    border-bottom: .5px solid #777;
+
+p {
+    padding: 10px;
+    text-align: justify;
 }
-li{
-    display: inline;
-    margin-inline: 8px;
-    font-family: Source Sans Pro; 
+
+main {
+    border-bottom: 1px solid #777;
+}
+
+main h2 {
+    font-family: 'Roboto Slab';
+}
+
+main h5 {
+    font-family: 'Abril Fatface';
+    font-weight: bold;
+    color: #dd3232;
+    font-size: 1em;
+}
+
+.more-articles {
+    text-align: center;
+}
+
+section {
+    display: inline-block;
+    width: 45%;
+    margin-inline: 10px;
 }
 a:link {
 color: #777;
@@ -46,31 +87,7 @@ a:visited{
 a:hover{
     color: rgb(38, 71, 150);
 }
-h2 {
-    font-family: Roboto Slab;
-    }
-.more-articles{
-    /* padding-top: 1em; */
-    border-top: 1px solid #777;
-    }
-h4 {
-    font-family: Roboto Slab;
-}
-h5 {
-    color: #dd3232;
-    font-family: Abril Fatface;
-    font-size: 1em;
-}
- p {
-    color: #777;
-    padding: 10px;
-    text-align: justify;
- }
- section{
-    display: inline-block;
-    width: 41%;
-    margin-inline: 30px;
-}
- footer{
+
+footer{
     text-align: center;
  }
