@@ -7,7 +7,8 @@ body {
 .newspaper-container {
     background: white;
     margin: 100px auto;
-    width: 700px;
+    margin-bottom: 10px;
+    width: 900px;
     border-radius: 20px;
     padding: 25px;
     box-shadow: 0 2px 3px #ddd;
@@ -94,10 +95,12 @@ a:hover{
     border-top: 1px solid #777;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 5px;
+    column-gap: 10px;
     width: 100%;
   }
-
+.grid-container h4{
+ color: rgb(38, 71, 150);
+}
 footer{
     text-align: center;
  }
