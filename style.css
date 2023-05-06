@@ -91,7 +91,11 @@ a:hover{
     color: rgb(38, 71, 150);
 }
 .grid-container {
+    border-top: 1px solid #777;
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5px;
+    width: 100%;
   }
 
 footer{
